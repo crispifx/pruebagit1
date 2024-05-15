@@ -4,14 +4,14 @@
 3)git config
 4)git help "comando"
 6)git add/log - repositorio/git init/repositorio - git clone/git init - git clone/repositorios - branch/merge - archivo - git add/git push - commits - git pull
-7) . /-s/log/-amend/add index.html /-b new branch/config user.name/remote -v /pull /merge hotfix master
+7) . /-s/log/-amend/add index.html /css /-b new branch/config user.name/remote -v /pull /merge hotfix
 8)git status
 9)git log-3
 10)git add LICENSE
 11)git commit -am
 12)git remote -rm github
 13)Localmente:git branch -d hotfix // Remotamente:git push origin --delete hotfix
-14)git log --graph --oneline --all
+14)git log --graph --oneline --a
 15)git commit --amend
 16)git checkout -b create-user-form
 17)(Creamos Rama)Git checkout -b main//(añadimos a heroku)git remote add heroku <URL_del_repositorio_de_Heroku>//(el -u establece a la rama "rastreada")git push -u heroku main
@@ -23,11 +23,11 @@
 23)X
 24)X
 25)X
-26)git switch master //(agregamos parche)//(commiteamos)git commit -am "aplicar parche"
-27)(restaura el archivo .env a su ultimo estaod)git checkout HEAD -- .env//(commitemoas index y package)git add index.js package.json//commit -m "commit"
+26)git switch master //(agregamos parche)//(commiteamos)git commit -am "aplicar parche" // git switch new_feature
+27)(restaura el archivo .env a su ultimo estaod)git reset HEAD -- .env             
 28)(creamos repo)git init repo1 // (creamos y cambiamos a rama1)git checkout-b rama1 // (creamos un archivo)echo esto es rama1 >rama1.html //(commiteamos)git commit -am "commit rama1"// (creamos y cambiamos a rama2, repetimos proceso)git checkout-b rama2 // echo esto es rama2 > rama2.html //git commit -am "commit rama2"
 29) V F V F V F F F V  V F
-30)git add
+30)git commit
 31)git diff --staged
 32)Todas 
 33)git clone "...."
