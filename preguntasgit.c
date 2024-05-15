@@ -1,0 +1,41 @@
+
+1)-
+2)confirmado, modificado, preparado.
+3)git config
+4)git help "comando"
+6)git add/log - repositorio/git init/repositorio - git clone/git init - git clone/repositorios - branch/merge - archivo - git add/git push - commits - git pull
+7) . /-s/log/-amend/add index.html /-b new branch/config user.name/remote -v /pull /merge hotfix master
+8)git status
+9)git log-3
+10)git add LICENSE
+11)git commit -am
+12)git remote -rm github
+13)Localmente:git branch -d hotfix // Remotamente:git push origin --delete hotfix
+14)git log --graph --oneline --all
+15)git commit --amend
+16)git checkout -b create-user-form
+17)(Creamos Rama)Git checkout -b main//(añadimos a heroku)git remote add heroku <URL_del_repositorio_de_Heroku>//(el -u establece a la rama "rastreada")git push -u heroku main
+18)git branch -a
+19)git remote add work https://github.com/user/repo.git // git push -u work main
+20)(Configurar nombre)git config --global user.name "Tu nombre"//(configurar email)git config --global user.email "tu correo"
+21)(agrego todo los archivos al staging area)git add . //(commiteo)git commit -m "a"
+22)(Guardar cambios)git add index.html//git commit -m "Arreglar error en index.html"/(cambiamos de rama)git switch origin/master //(creamos rama)git checkout -b fix-about-error //(arreglamos el error)//(commiteamos los cambios)git commit -am "Corregir error"//(la subimos al remoto)git push origin fix-about-error//(volvemos a nuestra rama)git swtich master//(fusionamos)git merge fix-about-error//(subimos los cambios)git push origin master
+23)X
+24)X
+25)X
+26)git switch master //(agregamos parche)//(commiteamos)git commit -am "aplicar parche"
+27)(restaura el archivo .env a su ultimo estaod)git checkout HEAD -- .env//(commitemoas index y package)git add index.js package.json//commit -m "commit"
+28)(creamos repo)git init repo1 // (creamos y cambiamos a rama1)git checkout-b rama1 // (creamos un archivo)echo esto es rama1 >rama1.html //(commiteamos)git commit -am "commit rama1"// (creamos y cambiamos a rama2, repetimos proceso)git checkout-b rama2 // echo esto es rama2 > rama2.html //git commit -am "commit rama2"
+29) V F V F V F F F V  V F
+30)git add
+31)git diff --staged
+32)Todas 
+33)git clone "...."
+34)staging area
+35)git branch -m
+36)git log -p
+37)copia y crea un repositorio
+38)git restore -staged "archivo"
+39)git switch master // git merge feature
+40)git log -p index.html
+
